@@ -1,0 +1,7 @@
+firstnum = float(input("kirjoita ensimmäinen luku:"))
+secondnum = float(input("kirjoita toinen luku:"))
+thirdnum = float(input("kirjoita kolmas luku:"))
+summa = (firstnum + secondnum + thirdnum)
+kerto = (firstnum * secondnum * thirdnum)
+k_arvo = ((firstnum + secondnum + thirdnum) / 3)
+print(summa, kerto, k_arvo)
