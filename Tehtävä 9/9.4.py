@@ -1,6 +1,6 @@
 import random
 
-class Car_class:
+class CarClass:
 
     def __init__(self, plate, max_speed):
         self.plate = plate
@@ -16,15 +16,15 @@ class Car_class:
         if self.current_speed < 0:
             self.current_speed = 0
 
-    def travel(self, hours):
-        self.distance += hours * self.current_speed
+    def travel(self, travelhours):
+        self.distance += travelhours * self.current_speed
 
 cars = []
 
 for i in range(1,11):
     maxspeed = random.randint(100, 200)
     carplate = f"ABC-{i}"
-    cars.append(Car_class(carplate, maxspeed))
+    cars.append(CarClass(carplate, maxspeed))
 
 race_on = True
 hours = 0
