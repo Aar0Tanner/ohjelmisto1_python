@@ -41,6 +41,7 @@ while race_on:
         if car.distance >= 10000:
             race_on = False
 
+sorted_cars = sorted(cars, key=lambda c: c.distance, reverse=True)
 
-for i in cars:
-    print(i.__dict__)
+for car in sorted_cars:
+    print(f"[rekisterikilpi: {car.plate:}, maksiminopeus: {car.max_speed:}, nykyinen nopeus: {car.current_speed:}, kuljettu matka: {car.distance:}]")

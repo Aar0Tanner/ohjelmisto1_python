@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aafd8b9a-49ce-4e93-9953-b8e115b431d3" name="Changes" comment="xd">
-      <change afterPath="$PROJECT_DIR$/Tehtävä 10/10.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tehtävä 10/10.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtävä 10/10.3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tehtävä 10/10.4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tehtävä 10/10.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tehtävä 10/10.2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tehtävä 9/9.4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tehtävä 9/9.4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,29 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.10.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9.4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.10.1.executor": "Run",
+    "Python.10.2.executor": "Run",
+    "Python.10.3.executor": "Run",
+    "Python.10.4.executor": "Run",
+    "Python.9.1.executor": "Run",
+    "Python.9.2.executor": "Run",
+    "Python.9.3.executor": "Run",
+    "Python.9.4.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -113,7 +116,8 @@
       <workItem from="1771945995527" duration="36000" />
       <workItem from="1771958068822" duration="2386000" />
       <workItem from="1772018289703" duration="9000" />
-      <workItem from="1773737995189" duration="849000" />
+      <workItem from="1773737995189" duration="4334000" />
+      <workItem from="1773747720955" duration="10115000" />
     </task>
     <task id="LOCAL-00001" summary="xd">
       <option name="closed" value="true" />
@@ -147,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771882929163</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="xd">
+      <option name="closed" value="true" />
+      <created>1773740319933</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773740319934</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,11 +181,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ohjelmisto1_python$9_3.coverage" NAME="9.3 Coverage Results" MODIFIED="1771873980593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 9" />
-    <SUITE FILE_PATH="coverage/ohjelmisto1_python$10_2.coverage" NAME="10.2 Coverage Results" MODIFIED="1771958780590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 10" />
+    <SUITE FILE_PATH="coverage/ohjelmisto1_python$9_3.coverage" NAME="9.3 Coverage Results" MODIFIED="1773752653439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 9" />
+    <SUITE FILE_PATH="coverage/ohjelmisto1_python$10_2.coverage" NAME="10.2 Coverage Results" MODIFIED="1773752946944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 10" />
     <SUITE FILE_PATH="coverage/ohjelmisto1_python$9_1.coverage" NAME="9.1 Coverage Results" MODIFIED="1771875654101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 9" />
     <SUITE FILE_PATH="coverage/ohjelmisto1_python$10_1.coverage" NAME="10.1 Coverage Results" MODIFIED="1771920713132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 10" />
-    <SUITE FILE_PATH="coverage/ohjelmisto1_python$9_4.coverage" NAME="9.4 Coverage Results" MODIFIED="1771875681017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 9" />
-    <SUITE FILE_PATH="coverage/ohjelmisto1_python$9_2.coverage" NAME="9.2 Coverage Results" MODIFIED="1771873447281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 9" />
+    <SUITE FILE_PATH="coverage/ohjelmisto1_python$10_4.coverage" NAME="10.4 Coverage Results" MODIFIED="1773822397799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 10" />
+    <SUITE FILE_PATH="coverage/ohjelmisto1_python$10_3.coverage" NAME="10.3 Coverage Results" MODIFIED="1773771589998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 10" />
+    <SUITE FILE_PATH="coverage/ohjelmisto1_python$9_4.coverage" NAME="9.4 Coverage Results" MODIFIED="1773822525173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 9" />
+    <SUITE FILE_PATH="coverage/ohjelmisto1_python$9_2.coverage" NAME="9.2 Coverage Results" MODIFIED="1773742301622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tehtävä 9" />
   </component>
 </project>

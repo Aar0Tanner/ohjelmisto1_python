@@ -44,9 +44,15 @@ class Talo:
             print(f"Hissiä numero {hissinro} ei ole olemassa.")
         return
 
+    def palohalytys(self):
+        for i in self.hissit:
+            i.siirry_kerrokseen(self.alinnro)
+
 
 t = Talo(1, 10, 3)
 
-t.aja_hissia(1, 3)
-t.aja_hissia(4, 3)
-t.aja_hissia(2, 11)
+t.aja_hissia(0, 5)
+t.aja_hissia(1, 8)
+t.aja_hissia(2, 3)
+
+t.palohalytys()
