@@ -26,6 +26,7 @@ class Hissi:
         while self.kerros > kohde:
             self.kerros_alas()
 
+
 class Talo:
     def __init__(self, alinnro, ylinnro, hissilkm):
         self.alinnro = alinnro
@@ -35,7 +36,6 @@ class Talo:
         for i in range(hissilkm):
             uusi_hissi = Hissi(alinnro, ylinnro)
             self.hissit.append(uusi_hissi)
-
 
     def aja_hissia(self, hissinro, kohde):
         if 0 <= hissinro < len(self.hissit):

@@ -1,5 +1,6 @@
 import random
 
+
 class CarClass:
 
     def __init__(self, plate, max_speed):
@@ -19,12 +20,13 @@ class CarClass:
     def travel(self, travelhours):
         self.distance += travelhours * self.current_speed
 
+
 class Race:
 
     def __init__(self, name, length, vehicles):
         self.name = name
         self.length = length
-        self.vehicles =vehicles
+        self.vehicles = vehicles
 
     def raceover(self):
         for c in self.vehicles:
@@ -38,16 +40,16 @@ class Race:
             c.accelerate(speed_change)
             c.travel(1)
 
-
     def printstats(self):
         sorted_vehicles = sorted(self.vehicles, key=lambda c: c.distance, reverse=True)
         for c in sorted_vehicles:
-            print(f"rekisterikilpi: {c.plate:}, maksiminopeus: {c.max_speed:}, nykyinen nopeus: {c.current_speed:}, kuljettu matka: {c.distance:}")
+            print(
+                f"rekisterikilpi: {c.plate:}, maksiminopeus: {c.max_speed:}, nykyinen nopeus: {c.current_speed:}, kuljettu matka: {c.distance:}")
 
 
 cars = []
 
-for i in range(1,11):
+for i in range(1, 11):
     maxspeed = random.randint(100, 200)
     carplate = f"ABC-{i}"
     cars.append(CarClass(carplate, maxspeed))
@@ -63,5 +65,5 @@ while not romuralli.raceover():
         print(f"Tunti {hours}")
         romuralli.printstats()
 
-print(f"\nKilpailu päättyi! Aikaa kului {hours} tuntia.")
 romuralli.printstats()
+print(f"\nKilpailu päättyi! Aikaa kului {hours} tuntia.")
