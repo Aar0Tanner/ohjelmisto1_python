@@ -1,7 +1,9 @@
 import requests
+import os
+
 
 def get_weather():
-    api_key = ""
+    api_key = os.environ['API_KEY']
     city = input("Syötä paikkakunnan nimi: ")
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric&lang=fi"
 
